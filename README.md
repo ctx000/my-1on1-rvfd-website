@@ -1,24 +1,18 @@
 # Raw Vegan Food Diet — Website
 
-C.Sanchez Raw Vegan Food Diet · 1:1 Wellness Coaching
-
 ## Files
-
 | File | Purpose |
 |------|---------|
-| `index.html` | Main sales page (GitHub Pages entry point) |
-| `apply.html` | 1:1 Coaching application form |
-| `Coach_Clarity_Framework.docx` | Client downloadable agreement |
-| `Logo_rvfd_white_bg.png` | Brand logo (circular, transparent exterior) |
+| `index.html` | Sales page |
+| `apply.html` | Application form (EmailJS wired — add your keys) |
+| `Client_Coach_Agreement.docx` | Downloadable client agreement |
+| `raw_vegan_logo.png` | Updated brand logo |
+| `favicon.ico` | Browser tab icon |
+| `apple-touch-icon.png` | iPhone/iPad home screen icon |
+| `EmailJS_Setup_Guide.html` | Step-by-step email automation setup |
 
-## Deploy on GitHub Pages
+## Deploy
+Upload all files to GitHub repo root → Settings → Pages → main / root → Save
 
-1. Upload all files to a GitHub repository
-2. Go to **Settings → Pages**
-3. Set Source to **main branch / root folder**
-4. Your site will be live at `https://yourusername.github.io/repository-name`
-
-## Notes
-- Logo is embedded as base64 in both HTML files — no path issues
-- Video uses youtube-nocookie.com for Brave browser compatibility
-- All internal links are pre-configured and ready to go
+## After deploying
+Open EmailJS_Setup_Guide.html and follow 4 steps to activate email automation.
